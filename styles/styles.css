@@ -94,7 +94,7 @@ body {
     overflow: hidden;
     padding: 20px;
     position: relative;
-    width: 610px;
+    width: 50%;
     max-width: 1200px;
     will-change: transform;
     overflow: auto;
