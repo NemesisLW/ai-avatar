@@ -7,7 +7,7 @@ const generateAction = async (req, res) => {
   const input = JSON.parse(req.body).input;
 
   const response = await fetch(
-    `https://api-inference.huggingface.co/models/Arghyad18/sd-ad`,
+    `https://api-inference.huggingface.co/models/darghya/rupa-d`,
     {
       headers: {
         Authorization: `Bearer ${process.env.HF_AUTH_KEY}`,
